@@ -93,7 +93,7 @@ pipeline{
     stages {
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/AreParameswarudu/Jenkins-pipeline-to-setup-EKS-cluster'
+                git branch: 'main', url: 'https://github.com//rajashekar-1/Jenkins-pipeline-to-setup-EKS-cluster'
             }
         }
         stage('Terraform version'){
